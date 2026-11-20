@@ -1,0 +1,16 @@
+[project]
+name = "learning-rag-simple"
+version = "0.1.0"
+description = "A hands-on project for learning retrieval-augmented generation"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[dependency-groups]
+dev = ["pytest>=9,<10"]
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "learning_rag"
